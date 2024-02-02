@@ -181,9 +181,9 @@ namespace progetto_settimanaleS13L5
                             break;
                         case 3:
                             Console.WriteLine();
-                            Console.WriteLine("Opzione 3: Uscita dal programma.");
-                            Console.WriteLine();
-                            return;
+                            Console.WriteLine("Chiusura del programma. Grazie per aver utilizzato il sistema.");
+                            Environment.Exit(0);
+                            break;
                         default:
                             Console.WriteLine();
                             Console.WriteLine("Opzione non valida, riprova");
